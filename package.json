@@ -4,7 +4,7 @@
   "private": true,
   "engines" : { 
     "npm" : ">=7.0.0",
-    "node" : ">=16.0.0"
+    "node" : ">=17.5.0"
   },
   "dependencies": {
     "cors": "^2.8.5",
