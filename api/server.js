@@ -6,6 +6,9 @@ const path = require("path");
 const cors = require("cors");
 const connect = require("./conn.db.js");
 
+
+const a = 0;
+
 const app = express();
 var corsOptions = {
   origin: "*"
