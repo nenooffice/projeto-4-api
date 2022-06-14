@@ -7,8 +7,6 @@ const cors = require("cors");
 const connect = require("./conn.db.js");
 
 
-const a = 0;
-
 const app = express();
 var corsOptions = {
   origin: "*"
@@ -59,7 +57,7 @@ app.use((req, res) => {
   });
 })
 
-const PORT = process.env.API_PORT || 8080;
+const PORT = process.env.PORT || 8080;
 
 connect(() => {
   app.listen(PORT, () => {
